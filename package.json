@@ -1,5 +1,6 @@
 {
   "name": "ynab-utils",
+  "repository": "https://github.com/pstaylor-patrick/ynab-utils",
   "version": "1.0.0",
   "description": "",
   "scripts": {
