@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "csv:hsa": "npx ts-node scripts/csv/hsa.ts",
-    "csv:liberty": "npx ts-node scripts/csv/liberty.ts",
+    "csv:hsa": "pnpm dlx ts-node scripts/csv/hsa.ts",
+    "csv:liberty": "pnpm dlx ts-node scripts/csv/liberty.ts",
     "format": "pnpm dlx prettier --write **/*.ts",
-    "apple-card": "npx ts-node scripts/apple-card.ts",
+    "apple-card": "pnpm dlx ts-node scripts/apple-card.ts",
     "postinstall": "pnpm format"
   },
   "author": "",
