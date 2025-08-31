@@ -1,0 +1,26 @@
+{
+  "name": "ynab-utils",
+  "repository": "https://github.com/pstaylor-patrick/ynab-utils",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "csv:hsa": "pnpm dlx ts-node scripts/csv/hsa.ts",
+    "csv:liberty": "pnpm dlx ts-node scripts/csv/liberty.ts",
+    "format": "pnpm dlx prettier --write **/*.ts",
+    "apple-card": "pnpm dlx ts-node scripts/apple-card.ts",
+    "postinstall": "pnpm format"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "bun": "^1.2.13",
+    "bun-types": "^1.2.13",
+    "pnpm": "^10.11.0",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0"
+  }
+}
